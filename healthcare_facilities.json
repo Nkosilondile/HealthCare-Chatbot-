@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Harare Central Hospital",
+        "type": "Hospital",
+        "address": "Cnr 8th St & Nelson Mandela Ave, Harare",
+        "location": "Harare",
+        "medical_info": {
+            "symptoms": ["fever", "cough", "shortness of breath", "muscle pain"],
+            "advice": "If you experience severe symptoms, please visit the hospital immediately.",
+            "medications": {
+                "fever": ["Paracetamol", "Ibuprofen"],
+                "cough": ["Dextromethorphan", "Guaifenesin"],
+                "shortness of breath": ["Albuterol", "Prednisone"],
+                "muscle pain": ["Ibuprofen", "Acetaminophen"]
+            }
+        }
+    },
+    {
+        "name": "Chitungwiza Central Hospital",
+        "type": "Hospital",
+        "address": "Seke Rd, Chitungwiza",
+        "location": "Chitungwiza",
+        "medical_info": {
+            "symptoms": ["chest pain", "difficulty breathing", "dizziness"],
+            "advice": "Seek immediate medical attention if symptoms worsen.",
+            "medications": {
+                "chest pain": ["Aspirin", "Nitroglycerin"],
+                "difficulty breathing": ["Albuterol", "Steroids"],
+                "dizziness": ["Meclizine", "Dimenhydrinate"]
+            }
+        }
+    },
+    {
+        "name": "Chinhoyi Provincial Hospital",
+        "type": "Hospital",
+        "address": "Chinhoyi",
+        "location": "Chinhoyi",
+        "medical_info": {
+            "symptoms": ["headache", "nausea", "fatigue"],
+            "advice": "Stay hydrated and consult a doctor if symptoms persist.",
+            "medications": {
+                "headache": ["Ibuprofen", "Acetaminophen"],
+                "nausea": ["Ondansetron", "Metoclopramide"],
+                "fatigue": ["Vitamin B12", "Iron supplements"]
+            }
+        }
+    },
+    {
+        "name": "Harare West Clinic",
+        "type": "Clinic",
+        "address": "Cnr of Chiremba Rd & J. Munhumumwe St, Harare",
+        "location": "Harare",
+        "medical_info": {
+            "symptoms": ["cold", "sore throat", "congestion"],
+            "advice": "Rest and drink warm fluids. Consult a doctor if symptoms last more than a week.",
+            "medications": {
+                "cold": ["Antihistamines", "Decongestants"],
+                "sore throat": ["Throat lozenges", "Ibuprofen"],
+                "congestion": ["Saline nasal spray", "Pseudoephedrine"]
+            }
+        }
+    },
+    {
+        "name": "Chitungwiza Clinic",
+        "type": "Clinic",
+        "address": "Zengeza 2, Chitungwiza",
+        "location": "Chitungwiza",
+        "medical_info": {
+            "symptoms": ["allergic reactions", "skin rash", "itchiness"],
+            "advice": "Avoid known allergens and seek medical advice if the rash persists.",
+            "medications": {
+                "allergic reactions": ["Antihistamines", "Corticosteroids"],
+                "skin rash": ["Hydrocortisone cream", "Calamine lotion"],
+                "itchiness": ["Antihistamines", "Oatmeal baths"]
+            }
+        }
+    },
+    {
+        "name": "Chinhoyi Clinic",
+        "type": "Clinic",
+        "address": "Chinhoyi, near the bus terminus",
+        "location": "Chinhoyi",
+        "medical_info": {
+            "symptoms": ["stomach ache", "diarrhea", "vomiting"],
+            "advice": "Stay hydrated and consider visiting a healthcare provider if symptoms worsen.",
+            "medications": {
+                "stomach ache": ["Antacids", "Loperamide"],
+                "diarrhea": ["Oral rehydration salts", "Bismuth subsalicylate"],
+                "vomiting": ["Ondansetron", "Metoclopramide"]
+            }
+        }
+    }
+]

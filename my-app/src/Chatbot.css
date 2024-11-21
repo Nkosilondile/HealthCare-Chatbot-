@@ -1,0 +1,179 @@
+/* Chatbot.css */
+
+.chatbot-container {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #075e54; /* WhatsApp header color */
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.chat-window {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #e5ddd5; /* Light background for chat messages */
+}
+
+.message {
+    margin: 5px 0;
+    display: flex; /* Use flexbox for alignment */
+}
+
+.message-bubble {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.message.user {
+    justify-content: flex-end; /* Align user messages to the right */
+}
+
+.message.user .message-bubble {
+    background-color: #dcf8c6; /* Light green for user messages */
+}
+
+.message.bot {
+    justify-content: flex-start; /* Align bot messages to the left */
+}
+
+.message.bot .message-bubble {
+    background-color: #ffffff; /* White for bot messages */
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+input[type="text"] {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded edges for input */
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Rounded edges for buttons */
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Center icon vertically */
+}
+
+.send-button {
+    background-color: #075e54; /* WhatsApp send button color */
+    color: white;
+}
+
+.send-button:hover {
+    background-color: #054a4f; /* Darker shade on hover */
+}
+
+.clear-button {
+    background-color: #dc3545; /* Red for clear button */
+    color: white;
+    margin-left: 5px;
+}
+
+.clear-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.send-button i,
+.clear-button i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.button-container button {
+    background-color: #007bff; /* Blue color for quick response buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px; /* Space between buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.button-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.quick-response-button {
+    background-color: #007bff; /* Blue color for quick response buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px; /* Space between buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.quick-response-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for the options list */
+.options-list {
+    margin-top: 10px;
+    
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for options */
+    border-radius: 5px;
+    max-width: 75%;
+    word-wrap: break-word;
+    list-style-type: none;
+}
+.message-bubble {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.options-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd; /* Separator between options */
+}
+
+.options-list li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+@media (max-width: 600px) {
+    .chatbot-container {
+        width: 90%;
+    }
+}
